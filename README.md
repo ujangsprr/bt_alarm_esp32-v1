@@ -15,6 +15,6 @@ Last Edited : 6/1/2021
 
 How to build this project
 1. Open folder location `idf.py build`
-2. If build succesfully run you kan flash to esp 32 `idf.py -p (PORT) flash`
+2. If build succesfully you can flash to esp32 with `idf.py -p (PORT) flash`
 3. You can monitor with `idf.py -p (PORT) monitor`
 4. Or you can flash and monitor `idf.py -p (PORT) flash monitor`
