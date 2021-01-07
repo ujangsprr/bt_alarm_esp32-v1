@@ -1,20 +1,20 @@
 | Supported Targets | ESP32 |
 | ----------------- | ----- |
 
+ESP-IDF BT-SPP-INITATOR WIFI ALARM
+==================================
 
-ESP-IDF BT-SPP-INITATOR demo
-======================
+Project :
+1. ESP32 Fan Control with Temperature
+2. ESP32 Buzzer Alarm with Time
+3. ESP32 LED Control with Bluetooth
 
-Demo of SPP initator role
+Author      : Ujang Supriyadi
+Email       : ujang.supriyadi568@gmail.com
+Last Edited : 6/1/2021
 
-This is the demo for user to use ESP_APIs to create a SPP initator.
-
-Options choose step:
-1. `idf.py menuconfig`
-2. enter menuconfig `Component config`, choose `Bluetooth`
-3. enter menu Bluetooth, choose `Classic Bluetooth` and `SPP Profile`
-4. choose your options.
-
-Then set `SPP_SHOW_MODE` as `SPP_SHOW_DATA` or `SPP_SHOW_SPEED` in code(should be same with bt_spp_acceptor).
-
-After the program started, It will connect to bt_spp_acceptor and send data.
+How to build this project
+1. Open folder location `idf.py build`
+2. If build succesfully run you kan flash to esp 32 `idf.py -p (PORT) flash`
+3. You can monitor with `idf.py -p (PORT) monitor`
+4. Or you can flash and monitor `idf.py -p (PORT) flash monitor`
