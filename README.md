@@ -9,8 +9,8 @@ Project :
 2. ESP32 Buzzer Alarm with Time
 3. ESP32 LED Control with Bluetooth
 
-Author      : Ujang Supriyadi
-Email       : ujang.supriyadi568@gmail.com
+Author      : Ujang Supriyadi<br/>
+Email       : ujang.supriyadi568@gmail.com<br/>
 Last Edited : 6/1/2021
 
 How to build this project
