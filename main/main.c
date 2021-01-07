@@ -39,11 +39,11 @@ Last Edited : 7/1/2020
 #define LED_BLUE 32
 #define LED 27
 #define BUZZER 13
-#define GPIO_PWM0A_OUT 214
+#define GPIO_PWM0A_OUT 21
 
 #define WIFI_SSID "Wifi kopi"
 #define WIFI_PASS "kopikeputih"
-#define ALARM_TIME "00:50:00"
+#define ALARM_TIME "07:00:00"
 
 #define SPP_TAG "SPP_ACCEPTOR"
 #define SPP_SERVER_NAME "SPP_SERVER"
