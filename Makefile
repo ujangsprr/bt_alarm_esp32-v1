@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := bt_spp_initiator_demo
+PROJECT_NAME := esp32_bt_alarm
 
 COMPONENT_ADD_INCLUDEDIRS := components/include
 
