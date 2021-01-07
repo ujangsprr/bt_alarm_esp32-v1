@@ -78,7 +78,7 @@ static const char *TAG = "My Project";
 static char strftime_buf[32], strftime_set[32], target[48];
 int val_lm, val_opamp, counter = 0;
 float mv_lm, mv_opamp, cel, speed;
-bool Alarm = 0, On;
+bool Alarm = 0;
 
 static void get_time(void)
 {
@@ -275,19 +275,7 @@ static void esp_spp_cb(esp_spp_cb_event_t event, esp_spp_cb_param_t *param)
             }
             else
             {
-                // pesan = "Wrong command :(";
-                if (!On)
-                {
-                    gpio_set_level(LED, 1);
-                    pesan = "LED is ON\n";
-                    On = 1;
-                }
-                else
-                {
-                    gpio_set_level(LED, 0);
-                    pesan = "LED is OFF\n";
-                    On = 0;
-                }
+                pesan = "Wrong command :(";
             }
 
             esp_spp_write(param->srv_open.handle, strlen(pesan), (uint8_t *)pesan);
